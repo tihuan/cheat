@@ -1,0 +1,113 @@
+/*global*/
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 1.50vw;
+  font-family: 'Amaranth', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #396fe6;
+}
+
+p {
+  text-align: left;
+}
+
+img, object, video {
+  max-width: 13.9vw;
+}
+
+ul {
+  width: 80vw;
+  margin: 0 auto;
+  list-style: none;
+  display: table;
+}
+
+li {
+  text-align: top;
+  display: table-cell;
+  vertical-align: top;
+  max-width: 20vw;
+  margin: 2vw;
+}
+
+
+/*typography*/
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-weight: 100;
+  font-size: 3.5vw;
+  letter-spacing: 1.5px;
+  color: #ffd300;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+  font-size: 3.8vw;
+  color: #ffd300;
+}
+h3 {
+  font-weight: 100;
+  font-size: 1.60vw;
+  color: #396fe6;
+}
+
+/*buttons*/
+
+.btn {
+  padding: 15px 30px;
+  margin: 40px 0;
+  color: #faf3bc;
+  background-color: #4fb69f;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #4cc4a7;
+}
+
+
+.btn-small {
+  padding: 10px 25px;
+  margin: 50px 0;
+  color: #faf3bc;
+  font-size: .75em;
+  background-color: #b22316;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.btn-small:hover {
+  background-color: #c62718;
+}
+
+/*content*/
+
+#intro {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*media queries*/
+
+/* Larger ----------- */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Smaller ----------- */
+@media screen and (max-width : 650px) {
+
+}
+
