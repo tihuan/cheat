@@ -12,6 +12,10 @@ a {
   color: #396fe6;
 }
 
+a:hover {
+  color: #ffd300;
+}
+
 p {
   text-align: left;
 }
